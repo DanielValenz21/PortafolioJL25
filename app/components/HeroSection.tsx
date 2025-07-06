@@ -16,11 +16,11 @@ export default function HeroSection() {
           className="mb-8"
         >
           <Image
-            src="/placeholder.svg?height=200&width=200"
+            src="/img/Perfil.jpeg"
             alt="Foto profesional"
             width={200}
             height={200}
-            className="rounded-full mx-auto mb-6 border-4 border-white shadow-xl"
+            className="rounded-full mx-auto mb-6 border-4 border-white shadow-xl object-cover"
           />
         </motion.div>
 
@@ -53,9 +53,16 @@ export default function HeroSection() {
               <Eye className="w-5 h-5 mr-2" />
               Ver Proyectos
             </Button>
-            <Button variant="outline" size="lg" className="px-8 py-3 bg-transparent">
-              <Download className="w-5 h-5 mr-2" />
-              Descargar CV
+            <Button
+              variant="outline"
+              size="lg"
+              className="px-8 py-3 bg-transparent"
+              asChild
+            >
+              <a href="/Daniel%20Valenzuela%20FullStack%20ES.pdf" download>
+                <Download className="w-5 h-5 mr-2" />
+                Descargar CV
+              </a>
             </Button>
           </div>
 

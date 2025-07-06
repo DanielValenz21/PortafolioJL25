@@ -187,9 +187,12 @@ export default function ContactSection() {
                 <Button
                   variant="outline"
                   className="w-full justify-start border-gray-600 text-gray-600 hover:bg-gray-50 bg-transparent"
+                  asChild
                 >
-                  <Download className="w-5 h-5 mr-3" />
-                  Descargar CV (PDF)
+                  <a href="/Daniel%20Valenzuela%20FullStack%20ES.pdf" download>
+                    <Download className="w-5 h-5 mr-3" />
+                    Descargar CV (PDF)
+                  </a>
                 </Button>
               </CardContent>
             </Card>
