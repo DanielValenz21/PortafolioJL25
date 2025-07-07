@@ -156,7 +156,7 @@ export default function ContactSection() {
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-900">Email</h4>
-                    <p className="text-gray-600">contacto@miportfolio.com</p>
+                    <p className="text-gray-600">hetzondaniel1@gmail.com</p>
                   </div>
                 </div>
               </CardContent>
