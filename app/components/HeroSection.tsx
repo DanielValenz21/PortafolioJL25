@@ -36,7 +36,7 @@ export default function HeroSection() {
             </span>
           </h1>
 
-          <p className="text-xl md:text-2xl text-gray-600 mb-4">React, Next.js & Node.js</p>
+          <p className="text-xl md:text-2xl text-gray-600 mb-4">React, .NET & Node.js</p>
 
           <div className="flex items-center justify-center gap-2 text-gray-500 mb-8">
             <MapPin className="w-5 h-5" />
@@ -44,8 +44,8 @@ export default function HeroSection() {
           </div>
 
           <p className="text-lg text-gray-700 max-w-3xl mx-auto mb-12 leading-relaxed">
-            Especialista en crear aplicaciones web escalables y experiencias de usuario excepcionales. Con más de 5 años
-            transformando ideas en soluciones digitales robustas que impulsan el crecimiento empresarial.
+            Especialista en crear aplicaciones web escalables y experiencias de usuario excepcionales. Con 2 años de
+            experiencia transformando ideas en soluciones digitales robustas que impulsan el crecimiento empresarial.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">

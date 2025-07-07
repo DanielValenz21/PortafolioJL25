@@ -6,23 +6,23 @@ import "./globals.css"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Desarrollador Full-Stack | React, Next.js & Node.js - Guatemala",
+  title: "Desarrollador Full-Stack | React, .NET & Node.js - Guatemala",
   description:
-    "Portafolio profesional de desarrollador Full-Stack especializado en React, Next.js, Node.js y tecnologías modernas. Más de 5 años creando soluciones digitales escalables.",
-  keywords: "desarrollador full-stack, react, nextjs, nodejs, guatemala, programador, web developer",
+    "Portafolio profesional de desarrollador Full-Stack especializado en React, .NET, Node.js y tecnologías modernas. Con 2 años creando soluciones digitales escalables.",
+  keywords: "desarrollador full-stack, react, dotnet, nodejs, guatemala, programador, web developer",
   authors: [{ name: "Tu Nombre" }],
   creator: "Tu Nombre",
   openGraph: {
     type: "website",
     locale: "es_ES",
     url: "https://tu-portfolio.com",
-    title: "Desarrollador Full-Stack | React, Next.js & Node.js",
+    title: "Desarrollador Full-Stack | React, .NET & Node.js",
     description: "Portafolio profesional de desarrollador Full-Stack especializado en tecnologías modernas",
     siteName: "Portfolio - Tu Nombre",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Desarrollador Full-Stack | React, Next.js & Node.js",
+    title: "Desarrollador Full-Stack | React, .NET & Node.js",
     description: "Portafolio profesional de desarrollador Full-Stack especializado en tecnologías modernas",
   },
   robots: {
