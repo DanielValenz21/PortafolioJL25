@@ -6,7 +6,7 @@ import AboutSection from "./components/AboutSection"
 import ProjectsSection from "./components/ProjectsSection"
 import ExperienceSection from "./components/ExperienceSection"
 import SkillsSection from "./components/SkillsSection"
-import TestimonialsSection from "./components/TestimonialsSection"
+import ReferenciasSection from "./components/TestimonialsSection"
 import ContactSection from "./components/ContactSection"
 // import CaseStudySection from "./components/CaseStudySection"
 // import BlogSection from "./components/BlogSection"
@@ -21,7 +21,7 @@ export default function Home() {
         <ProjectsSection />
         <ExperienceSection />
         <SkillsSection />
-        <TestimonialsSection />
+        <ReferenciasSection />
         {/* <CaseStudySection /> */}
         {/* <ImplementacionTecnicaSection /> */}
         {/* <BlogSection /> */}

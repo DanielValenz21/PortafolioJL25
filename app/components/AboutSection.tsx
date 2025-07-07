@@ -56,8 +56,10 @@ export default function AboutSection() {
 								</p>
 
 								<div className="grid grid-cols-2 gap-6 mb-8">
-									<div className="text-center">
+									<div className="col-span-2 flex justify-center">
 										<div className="text-3xl font-bold text-blue-600 mb-2">2+</div>
+									</div>
+									<div className="col-span-2 text-center">
 										<div className="text-gray-600">Años de Experiencia</div>
 									</div>
 								</div>

@@ -228,35 +228,6 @@ export default function ContactSection() {
             </Card>
           </motion.div>
         </div>
-
-        <motion.div
-          initial={{ y: 30, opacity: 0 }}
-          whileInView={{ y: 0, opacity: 1 }}
-          transition={{ duration: 0.6, delay: 0.4 }}
-          viewport={{ once: true }}
-          className="text-center mt-16 p-8 bg-white/80 backdrop-blur-sm rounded-2xl shadow-xl"
-        >
-          <h3 className="text-2xl font-bold text-gray-900 mb-4">¿Listo para comenzar tu proyecto?</h3>
-          <p className="text-gray-600 mb-6 max-w-2xl mx-auto">
-            Transformemos tus ideas en soluciones digitales excepcionales. Contacta conmigo y hablemos sobre cómo puedo
-            ayudarte a alcanzar tus objetivos.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button
-              size="lg"
-              className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white px-8 py-3"
-            >
-              Iniciar conversación
-            </Button>
-            <Button
-              variant="outline"
-              size="lg"
-              className="px-8 py-3 border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white transition-colors bg-transparent"
-            >
-              Ver más proyectos
-            </Button>
-          </div>
-        </motion.div>
       </div>
     </section>
   )

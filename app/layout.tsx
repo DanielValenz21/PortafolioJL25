@@ -50,8 +50,7 @@ export default function RootLayout({
         {children}
         <footer className="bg-gray-900 text-white py-12">
           <div className="max-w-6xl mx-auto px-4 text-center">
-            <p className="text-gray-400">© {new Date().getFullYear()} Tu Nombre. Todos los derechos reservados.</p>
-            <p className="text-gray-500 mt-2">Desarrollado con Next.js, TailwindCSS y Framer Motion</p>
+            <p className="text-gray-400 italic">“Establecer metas es el primer paso para convertir lo invisible en visible.”<br />— Tony Robbins</p>
           </div>
         </footer>
       </body>
